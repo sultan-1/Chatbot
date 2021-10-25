@@ -1,0 +1,78 @@
+{
+    "data":
+    [
+        {
+
+            "topic":"info",
+            "questions":
+            [
+                "What is your name?",
+                "May i ask you what is your name?",
+                "May i ask you what's your name?",
+                "What's your name?",
+                "What was your name again?",
+                "May i have your name please?",
+                "How may i address you?",
+                "What do you want me to call you?"
+            ],
+            
+            "answers":
+            [
+                "My name is mr. SAF",
+                "You can call me mr. SAF",
+                "I like you to call me mr. SAF"
+            ]
+        },
+        {
+
+            "topic":"greeting",
+            "questions":
+            [
+                "Hi",
+                "Hello",
+                "How are you?",
+                "How are you doing?",
+                "Glad to see you",
+                "Good morning",
+                "Good evening"
+            ],
+            
+            "answers":
+            [
+                "Hi, how can i help you?",
+                "Hello there, are you feel good today to talk?",
+                "Good morning",
+                "Good evening"
+
+            ]
+        },
+        {
+            "topic":"goodbye",
+            "questions":[
+                "Bye!",
+                "Nice to meet you",
+                "See you tomorrow",
+                "Have nice weekend"
+            ],
+            "answers":[
+                "Bye Bye",
+                "Nice to meet you too",
+                "Okay, see you then",
+                "I wish you, too."
+            ]
+        },
+        {
+            "topic":"general",
+            "questions":[
+                "Could you tell me something?",
+                "What is the tallest tower in the world?"
+            ],
+            "answers":[
+                "Saudi Arabia, officially the Kingdom of Saudi Arabia, is a country in Western Asia.",
+                "The tallest building in the world, as of 2021, is Burj Khalifa."
+            ]
+        }
+
+    ]
+    
+}

@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right, rgb(8, 27, 136),rgb(189, 4, 133));
+}
+#Container{
+    background-image: linear-gradient(to left, rgb(8, 27, 136),rgb(189, 4, 133));
+    width: 25rem;
+    height: 20rem;
+    position: relative;
+    display: block;
+    margin: 120px auto;
+    padding: 5px;
+    color: rgb(221, 226, 230);
+    border: none;
+    border-radius: 13px;
+}
+
+#Container #Header{
+   
+    border: none;
+    border-radius: 10px 10px 20px 20px;
+}
+
+#Container #Header h2{
+    color: #9cf2f5;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+}
+
+#Container #ChatBox{
+    background-color: #edf2f4;
+    border-radius: 13px;
+    border: none;
+    margin-bottom: 5px;
+    padding: 10px;
+    height: 240px;
+    display: block;
+    overflow: auto;
+}
+#Container #ChatBox .ChatBot-border{
+    background-color: inherit;
+    height: auto;
+    width: auto;
+    margin-top: 9px;
+    border-radius: 20px;
+    margin-right: 50%;  
+    display: inline-flex;
+    border: none;
+}
+
+#Container #ChatBox .ChatBot-border .ChatBot-Bubble{
+    background-color: rgb(189, 4, 133);
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    margin-right: auto;  
+}
+
+#Container #ChatBox .ChatBot-Bubble .ChatBot-Message{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 16px;
+}
+
+#Container #ChatBox .ChatBot-border .ChatBot-Icon{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(8, 27, 136);
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+#Container #ChatBox .User-border{
+    background-color: inherit;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    margin-left: 50%;
+    border: none;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    float: right;
+}
+
+#Container #ChatBox .User-border .User-Icon{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(189, 4, 133);
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#Container #ChatBox .User-border .User-Bubble{
+    background-color:rgb(8, 27, 136);
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+
+#Container #ChatBox .User-border .User-Bubble .User-Message{
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    margin: 16px;
+}
+
+
+
+#Container #footer{
+    display: inline-flex;
+    border: none;
+}
+
+#Container #footer #textArea{
+    resize: none;
+    border: none;
+    border-radius: 12px;
+    background-color: inherit;
+    outline-color: #8338ec;
+    margin-left: 48px;
+    color: rgb(255, 253, 253);
+    padding-left: 5px;
+    height: 20px;
+}
+
+#Container #footer #textArea::placeholder{
+    color: rgb(255, 253, 253);
+    padding-left: 5px;
+}
+
+
+
+#Container #footer #Send{
+    
+    background-color: inherit;
+    border: none;
+    color: rgb(255, 253, 253);
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+
+footer div{
+    color: red;
+}
+
+footer div a{
+    color:#edf2f4;
+}
